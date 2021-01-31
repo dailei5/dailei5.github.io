@@ -2,25 +2,73 @@
    index.html styles
    ========================================================================== */
 
-
 .header {
   color: powderblue;
   text-align: center;
 }
 
-.text {
+.sub-header {
   text-align: center;
-}
-/* code to make blinking cursor */
-
-.input1 {
-  width: 300px;
-  text-align: center;
+  font: menu;
 }
 
+.or {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
 
-/* this line removes the blue outline that
- you get when you select an element*/
-*:focus {outline:none}
+.main_image_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Top left text */
+.highlands {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
 
+.highlands:hover {
+  text-decoration: underline;
+}
 
+/* Bottom left text */
+.subtropical {
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+}
+
+.subtropical:hover {
+  text-decoration: underline;
+}
+
+/* Top right text */
+.polar {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.polar:hover {
+  text-decoration: underline;
+}
+
+/* Bottom right text */
+.continental {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.continental:hover {
+  text-decoration: underline;
+}
