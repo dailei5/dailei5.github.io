@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
-<!-- THIS PAGE DISPLAYS THE USER'S PAST AND CURRENT LOCATIONS -->
+<!-- DISPLAYS THE USER'S PAST AND CURRENT LOCATIONS.
+A SUBPAGE OF USER: User/UserLocation
+Allows current Users to add new locations (which is added to LocationVaults db)-->
 
 <html lang="en">
 <head>
@@ -13,12 +15,11 @@
     <h1>Weather Vault ®</h1>
     <div class="topnav">
       <a href="./index.html">Homepage</a>
-      <a href="./Sign_In.html">Sign In</a>
+      <a href="UserLogin.html">Sign In</a>
       <a href="WeatherVault.html">Weather</a>
-      <a href="LocationVault.html">location</a>
-      <a href="UserVault.html">My page</a>
+      <a href="UserLocation.html">location</a>
+      <a href="UserWeather.html">My page</a>
     </div>
-
 
     <p id="date"></p>
     <script>
@@ -26,5 +27,8 @@
     </script>
     <p> City name: Corvallis </p>
     <p> Zip Code: 97330</p>
+    <input placeholder="add new location"> </input>
+    <!-- new location is pushed into LocationVaults table in db -->
+    <button> add location </button>
 </body>
 </html>
