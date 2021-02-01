@@ -7,7 +7,17 @@ form {
 }
 
 /* Full-width inputs */
-input[type=text], input[type=password] {
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -32,11 +42,12 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Center the avatar image inside this container */
-.imgcontainer {
+/* Center the avatar image inside this container
+.imageContainer {
   text-align: center;
   margin: 24px 0 12px 0;
 }
+*/
 
 /* Avatar image */
 img.avatar {
@@ -61,4 +72,10 @@ span.psw {
     display: block;
     float: none;
   }
+}
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
