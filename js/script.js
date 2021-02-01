@@ -1,4 +1,8 @@
-const hl = document.querySelector("#highlands");
-hl.addEventListener("click", function (e) {
-    hl.href = "User.html/";
-})
+// let hl = document.getElementById("highlands");
+
+// hl.addEventListener("click", function (e) {
+//         console.log();
+//     }
+)
+
+
