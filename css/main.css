@@ -26,10 +26,10 @@
 .main_image_container {
   position: relative;
   text-align: center;
-  color: white;
 }
 /* Top left text */
 .highlands {
+  font-weight: bold;
   text-decoration: none;
   color: black;
   position: absolute;
@@ -40,11 +40,12 @@
 
 .highlands:hover {
   text-decoration: underline;
-  font-weight: bold
 }
 
 /* Bottom left text */
 .subtropical {
+  color: #DCE3C4;
+  font-weight: bold;
   text-decoration: none;
   position: absolute;
   top: 50%;
@@ -53,12 +54,13 @@
 }
 
 .subtropical:hover {
+  font-weight: bolder;
   text-decoration: underline;
-  font-weight: bold
 }
 
 /* Top right text */
 .polar {
+  font-weight: bold;
   text-decoration: none;
   color: black;
   position: absolute;
@@ -69,11 +71,14 @@
 
 .polar:hover {
   text-decoration: underline;
-  font-weight: bold
+  font-weight: bolder;
 }
 
 /* Bottom right text */
 .continental {
+  font-weight: bold;
+  color: #F1C76E;
+  text-decoration: none;
   position: absolute;
   top: 50%;
   left: 58%;
@@ -82,5 +87,5 @@
 
 .continental:hover {
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: bolder;
 }
