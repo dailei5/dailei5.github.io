@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .header {
+  text-decoration: none;
   color: powderblue;
   text-align: center;
 }
