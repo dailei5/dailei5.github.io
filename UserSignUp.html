@@ -2,6 +2,7 @@
 <!-- THE USER SIGN UP PAGE.
  IT GETS THE USER'S INFO AND LOCATION -->
 
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +30,7 @@
 
     <p>Please fill in this form to create an account.</p>
     <hr>
-
+    <!-- implement the "passwords do not match and the "no email and stuff -->
     <label>
         <b>Email</b>
         <input type="text" placeholder="Enter Email" name="Email" required >
@@ -44,7 +45,10 @@
         <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
     </label>
     <a href="index.html"><button type="button" >Cancel</button></a>
-    <button type="submit" >Sign Up</button>
+<!--    <button type="submit" >Sign Up</button>-->
+    <div class="popup" onclick="myFunction()">Sign Up
+        <span class="popuptext" id="myPopup">beta</span>
+    </div>
 </div>
 <script src="js/script.js"></script>
 </body>
