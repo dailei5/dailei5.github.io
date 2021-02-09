@@ -2,26 +2,42 @@
    index.html styles
    ========================================================================== */
 
-.header {
+.nav-menu {
+  text-align: center;
+  font: menu;
+  background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-title {
   text-decoration: none;
   color: powderblue;
   text-align: center;
 }
 
-.header:hover {
+.page-title:hover {
   color: #f1f1f1;
   font-weight: bolder;
 }
 
-.sub-header {
+h3.sub-page-title {
   text-align: center;
-  font: menu;
 }
 
-.or {
-  text-align: center;
-  font-weight: bold;
-  font-size: large;
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+a.button:hover {
+  color: #cccccc;
+  font-weight: bolder;
 }
 
 .main_image_container {

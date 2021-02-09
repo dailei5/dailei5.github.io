@@ -90,3 +90,7 @@ span{
 
 
 }
+
+h2.main-head, h3.sub-head {
+  text-align: center;
+}
